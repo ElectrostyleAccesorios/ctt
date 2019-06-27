@@ -1,0 +1,116 @@
+div{
+	color: #000;
+}
+body{
+	background-repeat: no-repeat;
+	background-size: 1350px 400px;
+	background-color: #000;
+	color: #fff;
+	margin: 0;
+}
+form{
+
+	background: #584356;
+	width: 30%;
+	border: 3px solid #F417E0;
+	margin: 20px;
+	padding: 20px;
+}
+label{
+	font-size: 15px;
+	display: block;
+	width: 100%;
+}
+input{
+	margin-bottom: 20px;
+	width: 100%;
+	padding: 10px;
+	box-sizing: border-box;
+	border: 1px solid #000;
+}
+input:focus {
+	border: 2px solid #F417E0;
+}
+div input{
+	display: none;
+}
+div label {
+	color:#fff;
+	padding: 5px 5px;
+	box-sizing: border-box;
+	display: inline-block;
+	position: relative;
+	font-size: 1em;
+	border-radius: 3px;
+	cursor: pointer;
+} 
+div label:hover{
+	background: #F5A0ED;
+}
+div label:before{
+	content: "";
+	width: 15px;
+	height: 15px;
+	display: inline-block;
+	background:none;
+	border: 3px solid #F417E0;
+	border-radius: 50%;
+	position:absolute;
+	left: 140px;
+	top: 4px;
+}
+div input:checked + label{
+padding: 5px 10px;
+background: #F417E0;
+border-radius: 2px;
+color: #fff;
+}
+input[type="submit"]{
+	width: 30%;
+	margin-bottom: 0;
+	background:#000;
+	color:#fff;
+	border: none;
+}
+input[type="submit"]:hover {
+background: #F417E0;
+cursor: pointer;
+}
+.menu{
+	width: 100%;
+	background: #000;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+.menu li{
+	display: inline-block;
+}
+.menu li a{
+	padding: 10px 20px;
+	display: inline-block;
+	color:#fff;
+}
+.menu li a:hover{
+	background: #000;
+	color:#F417E0;
+}
+.reg{
+	width: 100%;
+	background: #000;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+.reg li{
+	display: inline-block;
+}
+.reg li a{
+	padding: 15px 20px;
+	display: inline-block;
+	color:#fff;
+}
+.reg li a:hover{
+	background: #000;
+	color:#F417E0;
+}
